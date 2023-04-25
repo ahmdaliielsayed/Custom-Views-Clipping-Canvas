@@ -10,7 +10,7 @@ Clipping Canvas is an app for clipping canvas on the screen.
 
 ## Summary
 * Context of an Activity maintains Canvas state.
-* canvas.save() to save current state of canvas & canvas.restore() to restore the previous state of the canvas.
+* [canvas.save()](https://developer.android.com/reference/android/graphics/Canvas#save()) to save current state of canvas & [canvas.restore()](https://developer.android.com/reference/android/graphics/Canvas#restore()) to restore the previous state of the canvas.
 * Translate the origin of drawing surface instead of shapes.
 * Clipping regions can be any combination of shapes.
 * You can add, subtract, and intersect clipping regions.
